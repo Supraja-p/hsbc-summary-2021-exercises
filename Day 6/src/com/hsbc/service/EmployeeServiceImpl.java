@@ -7,7 +7,7 @@ import com.hsbc.exceptions.EmployeeAlreadyExistsException;
 import com.hsbc.exceptions.EmployeeNotFoundException;
 
 public class EmployeeServiceImpl implements EmployeeService {
-	private EmployeeDao dao;
+	private EmployeeDao dao =null;
 	public EmployeeServiceImpl(EmployeeDao dao) {
 		this.dao = dao;
 		}
