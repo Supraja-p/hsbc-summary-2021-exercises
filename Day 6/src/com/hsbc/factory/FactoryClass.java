@@ -19,7 +19,7 @@ public class FactoryClass {
 			return new TreeSetImpl();	
 		} 
 		else {
-			return null;
+			return new EmployeeDaoArrayImpl();
 		}
 		
 }
